@@ -1,0 +1,21 @@
+{
+  "name": "psalmoftheday",
+  "version": "0.1.0",
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^4.0.7"
+  },
+  "dependencies": {
+    "bs-webapi": "^0.13.1"
+  }
+}
