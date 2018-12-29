@@ -11,4 +11,4 @@ parcelRequire=function(e,r,n,t){var i="function"==typeof parcelRequire&&parcelRe
 },{"./curry.js":"Zxig","./js_primitive.js":"oEax"}],"kHAo":[function(require,module,exports) {
 "use strict";var e=require("bs-platform/lib/js/belt_Option.js"),t=require("bs-platform/lib/js/js_primitive.js"),r=new Date,s=new Date(r.getFullYear(),0),i=r.valueOf()-s.valueOf(),o=1+(i/1e3/60/60/24|0)|0,a=String(o%150),l='<a href="https://www.bible.com/en-GB/bible/59/PSA.'+String(a)+'.ESV">Psalm '+String(a)+"</a>",n=document.getElementById("linkTo");e.map(null==n?void 0:t.some(n),function(e){return e.innerHTML=l,0});var p=0,m=0,f=0;exports.D=p,exports.Doc=m,exports.Elem=f,exports.today=r,exports.firstOfYear=s,exports.dayOfYear=o,exports.psalmOfTheDay=a,exports.linkTo=l;
 },{"bs-platform/lib/js/belt_Option.js":"cnZ9","bs-platform/lib/js/js_primitive.js":"oEax"}]},{},["kHAo"], null)
-//# sourceMappingURL=Main.bs.d7ff252a.map
+//# sourceMappingURL=/Main.bs.d7ff252a.map
